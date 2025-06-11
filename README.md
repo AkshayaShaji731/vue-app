@@ -78,3 +78,9 @@ npm i axios
 ```
 npm i vue-spinner
 ````
+
+install vue toastification 
+
+```
+npm i vue-toastification@next
+```
