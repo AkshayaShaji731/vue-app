@@ -13,7 +13,10 @@ export default defineConfig({
     tailwindcss()
   ],
   server:{
-    port:3000
+    port:3000,
+    proxy:{
+      '/api'
+    }
   },
   resolve: {
     alias: {
